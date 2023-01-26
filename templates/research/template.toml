@@ -1,0 +1,5 @@
+name="research"
+description = "A research description"
+
+[src_dir]
+template = "components:src/module.jl"
