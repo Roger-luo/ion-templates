@@ -1,3 +1,7 @@
+delete-release tag:
+    gh release delete v{{tag}} -y
+    git push --delete origin v{{tag}}
+
 release tag:
     gh release create v{{tag}} -t v{{tag}} --generate-notes
 
