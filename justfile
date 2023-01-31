@@ -1,2 +1,2 @@
 release tag:
-    gh release create {{tag}} -t {{tag}} --generate-notes
+    gh release create v{{tag}} -t v{{tag}} --generate-notes
